@@ -59,7 +59,7 @@ namespace RTLTMPro
 
             base.OnInspectorGUI();
 
-            foldout = EditorGUILayout.Foldout(foldout, "RTL Settings", TMP_UIStyleManager.boldFoldout);
+            foldout = EditorGUILayout.Foldout(foldout, "RTL Settings");
             if (foldout)
             {
                 DrawOptions();
