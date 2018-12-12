@@ -40,6 +40,7 @@ namespace RTLTMPro
         Waw = 0xFEED,
         Ya = 0xFEF1,
         AlefMad = 0xFE81,
+        AlefMaq = 0xFEEF,
         TaMarboota = 0xFE93,
         PersianYa = 0xFBFC,
         PersianPe = 0xFB56,

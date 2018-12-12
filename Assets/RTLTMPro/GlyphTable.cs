@@ -51,6 +51,7 @@ namespace RTLTMPro
                 new GlyphMapping((int) GeneralLetters.Waw, (int) IsolatedLetters.Waw),
                 new GlyphMapping((int) GeneralLetters.Ya, (int) IsolatedLetters.Ya),
                 new GlyphMapping((int) GeneralLetters.AlefMad, (int) IsolatedLetters.AlefMad),
+                new GlyphMapping((int) GeneralLetters.AlefMaq, (int) IsolatedLetters.AlefMaq),
                 new GlyphMapping((int) GeneralLetters.TaMarboota, (int) IsolatedLetters.TaMarboota),
                 new GlyphMapping((int) GeneralLetters.PersianYa, (int) IsolatedLetters.PersianYa),
                 new GlyphMapping((int) GeneralLetters.PersianPe, (int) IsolatedLetters.PersianPe),

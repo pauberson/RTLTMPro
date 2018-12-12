@@ -173,6 +173,9 @@ namespace RTLTMPro
             if (ch >= (char) IsolatedLetters.AlefMad && ch <= (char) IsolatedLetters.AlefMad + 3)
                 return true;
 
+            if (ch >= (char) IsolatedLetters.AlefMaq && ch <= (char)IsolatedLetters.AlefMaq + 3)
+                return true;
+
             if (ch >= (char) IsolatedLetters.TaMarboota && ch <= (char) IsolatedLetters.TaMarboota + 3)
                 return true;
 
@@ -240,6 +243,7 @@ namespace RTLTMPro
                 case (char) GeneralLetters.Waw:
                 case (char) GeneralLetters.Ya:
                 case (char) GeneralLetters.AlefMad:
+                case (char) GeneralLetters.AlefMaq:
                 case (char) GeneralLetters.TaMarboota:
                 case (char) GeneralLetters.PersianPe:
                 case (char) GeneralLetters.PersianChe:
