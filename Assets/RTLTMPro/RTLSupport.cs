@@ -808,6 +808,7 @@ namespace RTLTMPro
                                                   letters[index - 1] == (int) IsolatedLetters.AlefMad ||
                                                   letters[index - 1] == (int) IsolatedLetters.AlefHamza ||
                                                   letters[index - 1] == (int) IsolatedLetters.Hamza ||
+                                                  letters[index - 1] == (int) IsolatedLetters.WawHamza ||
                                                   letters[index - 1] == (int) IsolatedLetters.AlefMaksoor;
 
             bool canThisLetterBeLeading = letters[index] != ' ' &&
